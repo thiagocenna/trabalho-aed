@@ -1,5 +1,6 @@
 # Trabalho Final - Algoritmo e Estrutura de Dados
-###Integrantes da equipe:
+
+### Integrantes da equipe:
 - Daniel Gobbi Bergholz 16/0004551
 - Arthur Madero 16/0113113
 - Thiago alves 16/0146348 

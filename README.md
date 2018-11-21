@@ -18,3 +18,8 @@ Git do trabalho final da disciplina de AED na UnB 02/2018.
     * Daniel: Menu e organização da equipe (distribuição de tarefas e gestão do Git);
     * Thiago: Grafo e caminho mínimo;
     * Arthur: Tabela Hash;
+* **21/11**: Ainda algumas discussões. Começamos a programar efetivamente hoje. O que ficou decidido:
+  * Utilização de arquivos .hpp
+    * Antes, iríamos fazer um monte de .cpp e unir em um só codigo main, agora ficou mais organizado;
+    * Um arquivo .hpp que conterá as classes do Roteador e do Dado
+  * A equipe se familiarizou mais com os comandos do GitHub

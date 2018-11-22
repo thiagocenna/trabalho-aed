@@ -2,7 +2,6 @@
 // PROTOCOLO DE ROTEAMENTO
 // Funcionalidade: Menu
 // Responsavel: Daniel Gobbi
-// Ultima vez editado: 18/11 21h
 
 #include <iostream>
 #include <string>
@@ -15,6 +14,7 @@ int main(){
     int auxi; // inteiro auxiliar
     Dado *d;
     Roteador *r;
+    Grafo g;
 
     cout << "Bem vindo ao menu do seu roteador!\n";
     cout << "Selecione uma das opcoes a seguir:\n";
@@ -27,15 +27,16 @@ int main(){
 
         switch(opcao){
             case 1:
-
+                g.mostrar();
                 cout << endl;
                 break;
             case 2:
                 delete[] r;
                 cout << "O novo dispositivo tem ID: " << id << "\nEm quantos roteadores ele está conectado? (contando com a internet)\n";
                 cin >> auxi;
+                cout << "Favor digitar os ID's dos roteadores\n";
                 for (int i = 0; i < auxi; ++i){
-                    
+                    cout << // PAREI AQUI
                 }
                 cout << endl;
                 break;

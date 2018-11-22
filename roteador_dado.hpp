@@ -1,12 +1,13 @@
 // TRABALHO FINAL DE AED
 // PROTOCOLO DE ROTEAMENTO
 // Funcionalidade: Roteador e Dado
-// Arquivo que contem as classes do Roteador e do Dado que serÃ¡ transmitido
+// Arquivo que contem as classes do Roteador e do Dado que será transmitido
 // Responsavel: Daniel Gobbi
 
 #ifndef ROTEADOR_E_DADO
 #define ROTEADOR_E_DADO
 #include <iostream>
+#include <time.h>
 #include <string>
 
 class Roteador{
@@ -19,11 +20,31 @@ class Dado{
   public:
     // ATRIBUTOS
     int codigo; // identificador do Dado
-
-    // METODOS
-    void funcao_hash(int id){ // funcao que recebera o id do roteador, e retornara um codigo para identificar o Dado transmitido
-
-    };
+    
+	
+	// CONSTRUTOR
+    Dado(int id){
+		codigo = (time(NULL) % 1000 + 1)*id; // função hash implementada aqui
+	}
 };
 
 #endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
